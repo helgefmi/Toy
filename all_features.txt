@@ -1,0 +1,62 @@
+# Tester kommentar
+    # .. #
+  # ...... #
+# : while  : #
+# }  for   { #
+
+ap;
+
+while (true) {
+    print();
+}
+while(true) {}
+
+while_var;
+fortest;
+a_for;
+
+y = 5.55;
+x = .55;
+y = 5.55;
+x = .55;
+
+x = 10;
+while (x < 50) {
+    # Denne funksjonen
+    # Har
+    # Kommentar!
+
+    y = x;
+    while (y = y - 1) {
+        print(y, "\n");
+    }
+    x = x + 1;
+}
+
+# Rekursiv implementasjon
+def nfac(n) {
+    if (n <= 1) {
+        return 1;
+    }
+
+    return n * nfac(n - 1);
+}
+
+def nfac_tail(n, res) {
+    if (n <= 1) {
+        return res;
+    }
+
+    return nfac_tail(n - 1, res * n);
+}
+
+def nfac2(n) {
+    res = 1;
+    i = 2;
+    while (i <= n) {
+        res = res * i;
+        i = i + 1;
+    }
+
+    return res;
+}
